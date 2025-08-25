@@ -57,7 +57,7 @@ const App = () => {
       <button onClick={startTimer} disabled={isRunning}>Start</button>
       <button onClick={stopTimer} disabled={!isRunning}>Stop</button>
       <button onClick={recordLap} disabled={!isRunning}>Lap</button>
-      <button onClick={resetTimer} disabled={isRunning}>Reset</button>
+      <button onClick={resetTimer} >Reset</button>
 
       <ul>
         {laps.map((lap, index) => (
